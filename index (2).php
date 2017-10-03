@@ -6,6 +6,6 @@
 			$sum+=$prices[$i];
 		}
 		$avg=$sum/count($prices);
-		echo $avg;
+		echo "Средняя цена $avg";
 		?>
 		</div>
